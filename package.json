@@ -1,0 +1,35 @@
+{
+  "name": "@innofake/inno-joker",
+  "version": "1.0.0",
+  "description": "Web Component that displays a random joke.",
+  "main": "inno-joker.js",
+  "module": "inno-joker.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf *{d.ts,d.ts.map,js,js.map}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innofake/inno-joker.git"
+  },
+  "keywords": [
+    "web-components",
+    "lit-element",
+    "typescript",
+    "lit"
+  ],
+  "author": "Stefan Buys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/innofake/inno-joker/issues"
+  },
+  "homepage": "https://github.com/innofake/inno-joker#readme",
+  "dependencies": {
+    "lit": "^2.2.7"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.4"
+  }
+}
