@@ -1,5 +1,5 @@
 {
-  "name": "@innofake/inno-joker",
+  "name": "@innofake/inno-random-joke",
   "version": "1.0.0",
   "description": "Web Component that displays a random joke.",
   "main": "inno-joker.js",

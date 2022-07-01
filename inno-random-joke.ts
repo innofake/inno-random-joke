@@ -1,8 +1,8 @@
 import { LitElement, html, nothing, css } from 'lit';
 import { customElement, state } from 'lit/decorators.js';
 
-@customElement('inno-joker')
-export class InnoJoker extends LitElement {
+@customElement('inno-random-joke')
+export class InnoRandomJoke extends LitElement {
 
     @state()
     _joke = null;

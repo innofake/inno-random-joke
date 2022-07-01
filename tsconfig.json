@@ -26,6 +26,6 @@
         }
       ]
     },
-    "include": ["inno-joker.ts"],
+    "include": ["inno-random-joke.ts"],
     "exclude": []
   }
