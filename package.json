@@ -2,13 +2,13 @@
   "name": "@innofake/inno-random-joke",
   "version": "1.0.0",
   "description": "Web Component that displays a random joke.",
-  "main": "inno-joker.js",
-  "module": "inno-joker.js",
+  "main": "inno-random-joke.js",
+  "module": "inno-random-joke.js",
   "type": "module",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "clean": "rimraf *{d.ts,d.ts.map,js,js.map}",
+    "clean": "rimraf inno-random-joke.{d.ts,d.ts.map,js,js.map} test/inno-random-joke.{d.ts,d.ts.map,js,js.map} test/inno-random-joke_test.{d.ts,d.ts.map,js,js.map}",
     "publish": "npm publish --access public",
     "serve": "wds --watch",
     "test": "npm run test:dev && npm run test:prod",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/innofake/inno-joker.git"
+    "url": "git+https://github.com/innofake/inno-random-joke.git"
   },
   "keywords": [
     "web-components",
@@ -30,9 +30,9 @@
   "author": "Stefan Buys",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/innofake/inno-joker/issues"
+    "url": "https://github.com/innofake/inno-random-joke/issues"
   },
-  "homepage": "https://github.com/innofake/inno-joker#readme",
+  "homepage": "https://github.com/innofake/inno-random-joke#readme",
   "dependencies": {
     "@open-wc/testing": "^3.1.6",
     "lit": "^2.2.7"

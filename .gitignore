@@ -2,6 +2,8 @@
 .DS_Store
 
 # Project
-node_modules
+/node_modules/
+/test/
+
 inno-random-joke*.d.ts*
 inno-random-joke*.js*
