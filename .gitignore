@@ -3,6 +3,5 @@
 
 # Project
 node_modules
-*.d.ts*
-*.js
-*.js.map
+inno-random-joke*.d.ts*
+inno-random-joke*.js*

@@ -10,7 +10,12 @@
     "build:watch": "tsc --watch",
     "clean": "rimraf *{d.ts,d.ts.map,js,js.map}",
     "publish": "npm publish --access public",
-    "serve": "wds --watch"
+    "serve": "wds --watch",
+    "test": "npm run test:dev && npm run test:prod",
+    "test:dev": "wtr",
+    "test:watch": "wtr --watch",
+    "test:prod": "MODE=prod wtr",
+    "test:prod:watch": "MODE=prod wtr --watch"
   },
   "repository": {
     "type": "git",
@@ -29,12 +34,16 @@
   },
   "homepage": "https://github.com/innofake/inno-joker#readme",
   "dependencies": {
+    "@open-wc/testing": "^3.1.6",
     "lit": "^2.2.7"
   },
   "devDependencies": {
-    "rimraf": "^3.0.2",
-    "typescript": "^4.7.4",
     "@web/dev-server": "^0.1.32",
-    "@webcomponents/webcomponentsjs": "^2.6.0"
+    "@web/dev-server-legacy": "^1.0.0",
+    "@webcomponents/webcomponentsjs": "^2.6.0",
+    "@web/test-runner": "^0.13.31",
+    "@web/test-runner-playwright": "^0.8.9",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.4"
   }
 }
