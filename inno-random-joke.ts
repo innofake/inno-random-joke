@@ -1,6 +1,22 @@
 import { LitElement, html, nothing, css } from 'lit';
 import { customElement, property, state } from 'lit/decorators.js';
 
+/**
+ * Displays a random joke, queried from https://v2.jokeapi.dev/.
+ * 
+ * @example 
+ * <inno-random-joke interval="5"></inno-random-joke>
+ * 
+ * @element
+ * inno-random-joke
+ * 
+ * @property {string} [interval=0] - Interval in seconds between displaying a new joke.
+ * 
+ * @cssprop --inno-random-joke-font-family - Font family to use.
+ * @cssprop --inno-random-joke-font-size - Font size to use.
+ * @cssprop --inno-random-joke-font-weight - Font weight to use.
+ * @cssprop --inno-random-joke-text-align - Align text horizontally.
+ */
 @customElement('inno-random-joke')
 export class InnoRandomJoke extends LitElement {
 
@@ -37,9 +53,7 @@ export class InnoRandomJoke extends LitElement {
             font-family: var(--inno-random-joke-font-family, Arial);
             font-size: var(--inno-random-joke-font-size, 12px);
             font-weight: var(--inno-random-joke-font-weight, normal);
-            text-align: center;
-            /* ext-transform: uppercase;
-            text-decoration: underline; */
+            text-align: var(--inno-random-joke-text-align, center);
         }
     `;
 
