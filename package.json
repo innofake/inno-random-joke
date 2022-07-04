@@ -1,6 +1,6 @@
 {
   "name": "@innofake/inno-random-joke",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Web Component that displays a random joke.",
   "main": "inno-random-joke.js",
   "module": "inno-random-joke.js",
@@ -34,10 +34,10 @@
   },
   "homepage": "https://github.com/innofake/inno-random-joke#readme",
   "dependencies": {
-    "@open-wc/testing": "^3.1.6",
     "lit": "^2.2.7"
   },
   "devDependencies": {
+    "@open-wc/testing": "^3.1.6",
     "@web/dev-server": "^0.1.32",
     "@web/dev-server-legacy": "^1.0.0",
     "@webcomponents/webcomponentsjs": "^2.6.0",
