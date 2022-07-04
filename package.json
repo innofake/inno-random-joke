@@ -1,6 +1,6 @@
 {
   "name": "@innofake/inno-random-joke",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web Component that displays a random joke.",
   "main": "inno-random-joke.js",
   "module": "inno-random-joke.js",
