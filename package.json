@@ -1,6 +1,6 @@
 {
   "name": "@innofake/inno-random-joke",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Web Component that displays a random joke.",
   "main": "inno-random-joke.js",
   "module": "inno-random-joke.js",
@@ -9,7 +9,6 @@
     "build": "tsc",
     "build:watch": "tsc --watch",
     "clean": "rimraf inno-random-joke.{d.ts,d.ts.map,js,js.map} test/inno-random-joke.{d.ts,d.ts.map,js,js.map} test/inno-random-joke_test.{d.ts,d.ts.map,js,js.map}",
-    "publish": "npm publish --access public",
     "serve": "wds --watch",
     "test": "npm run test:dev && npm run test:prod",
     "test:dev": "wtr",
