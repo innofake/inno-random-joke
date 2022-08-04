@@ -1,5 +1,6 @@
 import { legacyPlugin } from '@web/dev-server-legacy';
 import { playwrightLauncher } from '@web/test-runner-playwright';
+import { summaryReporter } from '@web/test-runner';
 
 const mode = process.env.MODE || 'dev';
 if (!['dev', 'prod'].includes(mode)) {
@@ -89,7 +90,10 @@ export default {
   nodeResolve: { exportConditions: mode === 'dev' ? ['development'] : [] },
   preserveSymlinks: true,
   browsers: commandLineBrowsers ?? Object.values(browsers),
-  reporters:['jest-github-actions-reporter'],
+  reporters:[
+    summaryReporter(),
+    'jest-github-actions-reporter'
+  ],
   testFramework: {
     // https://mochajs.org/api/mocha
     config: {
