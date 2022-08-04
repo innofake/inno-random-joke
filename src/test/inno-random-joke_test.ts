@@ -5,7 +5,7 @@ import { assert } from '@open-wc/testing';
 
 suite('inno-random-joke', () => {
     test('is defined', () => {
-        const el = document.createElement('inno-random-joke');
+        const el = document.createElement('inno-random-joko');
         assert.instanceOf(el, InnoRandomJoke);
       });
 });
