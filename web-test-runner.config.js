@@ -92,7 +92,7 @@ export default {
   browsers: commandLineBrowsers ?? Object.values(browsers),
   reporters:[
     summaryReporter(),
-    'jest-github-actions-reporter'
+    'jest-github-reporter'
   ],
   testFramework: {
     // https://mochajs.org/api/mocha
