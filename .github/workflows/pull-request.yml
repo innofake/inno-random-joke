@@ -1,9 +1,8 @@
-name: pull-request-test
+name: pull-request-action
 
 on:
   pull_request:
-    branches:
-      - github-action-test
+    branches: [ github-action-test ]
 jobs:
   build:
     name: pull-request-test
