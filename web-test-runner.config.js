@@ -89,7 +89,7 @@ export default {
   nodeResolve: { exportConditions: mode === 'dev' ? ['development'] : [] },
   preserveSymlinks: true,
   browsers: commandLineBrowsers ?? Object.values(browsers),
-  reporters:['jest-github-actions-reporter'],
+  reporters:['jest-github-reporter'],
   testFramework: {
     // https://mochajs.org/api/mocha
     config: {
