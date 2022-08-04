@@ -1,4 +1,4 @@
-name: pull-request-tests
+name: pull-request-test
 
 on:
   pull_request:
@@ -6,6 +6,7 @@ on:
       - github-action-test
 jobs:
   build:
+    name: pull-request-test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
