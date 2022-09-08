@@ -1,4 +1,4 @@
-# inno-random-joke 2
+# inno-random-joke
 Web Component that displays a random joke with ability to update the joke using a configurable interval.
 
 ## Install
