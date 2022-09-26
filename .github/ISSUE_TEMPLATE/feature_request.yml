@@ -1,5 +1,5 @@
 name: Feature Request
-description: File a bug report
+description: Suggest a feature or enhancement
 title: "[Feature Request]: "
 labels: ["feature", "enhancement"]
 body:
